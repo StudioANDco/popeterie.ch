@@ -1,0 +1,65 @@
+title: Popeterie
+description: Popeterie
+author: Balbuzard
+email: alex@taiwan-massage.ch
+
+street: "Rue de la Cathédrale 17"
+city: "Sion"
+zip: "1950"
+state: "Valais"
+country: "Suisse"
+latitude: "46.234479"
+longitude: "7.359570"
+
+ga: 354535111
+fb_app_id: 1778543192210095
+
+baseurl: ""
+url: "https://taiwan-massage.ch/"
+
+exclude:
+
+# Build settings
+markdown: kramdown
+plugins:
+    - jekyll-feed
+    - jekyll-coffeescript
+    - jekyll-paginate
+    - jekyll-sitemap
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - package.json
+
+# Github forced settings
+lsi: false
+safe: true  
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+
+collections:
+    contact:
+        output: true
+
+    propos:
+        output: true
+
+# Sitemap
+
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
