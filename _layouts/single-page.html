@@ -41,14 +41,6 @@
 </head>
 
 <body class="container">
-    <script type="text/javascript">
-        var github_url = 'https://sonnsone.github.io/';
-        var current = window.location.href;
-        if(current.indexOf(github_url) === 0) {
-            window.location.href = '{{ page.url | absolute_url}}';
-        }
-    </script>
-
     <div class="container__content">
         {{ content }}
     </div>
