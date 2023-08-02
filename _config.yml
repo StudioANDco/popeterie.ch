@@ -1,7 +1,7 @@
 title: Popeterie
 description: Popeterie
 author: Balbuzard
-email: alex@taiwan-massage.ch
+email: aurelie@popeterie.ch
 
 street: "Rue de la Cathédrale 17"
 city: "Sion"
@@ -15,7 +15,7 @@ ga: 354535111
 fb_app_id: 1778543192210095
 
 baseurl: ""
-url: "https://taiwan-massage.ch/"
+url: "https://studioandco.github.io/popeterie.ch/"
 
 exclude:
 
